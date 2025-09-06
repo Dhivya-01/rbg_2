@@ -738,7 +738,7 @@ const MLloOpsContent = () => {
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
-              className="order-2 md:order-1 relative z-10"
+              className="order-2 md:order-1 relative "
             >
               <div className="relative">
                 <img
@@ -760,7 +760,7 @@ const MLloOpsContent = () => {
               <div className="relative bg-white/70 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border border-white/30">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-Primary/10 to-transparent rounded-tr-3xl rounded-bl-full"></div>
                 
-                <p className="text-lg text-gray-700 leading-relaxed font-OpenSans relative z-10">
+                <p className="text-lg text-gray-700 leading-relaxed font-OpenSans relative ">
                   Imagine a world where AI and humans work hand-in-hand, each
                   enhancing the other's strengths to achieve seamless data
                   extraction and analysis. That's MLloOps™ a platform where{" "}
@@ -770,7 +770,7 @@ const MLloOpsContent = () => {
                   to unlock new possibilities in machine learning workflows.
                 </p>
                 
-                <p className="text-lg text-gray-700 leading-relaxed mt-6 font-OpenSans relative z-10">
+                <p className="text-lg text-gray-700 leading-relaxed mt-6 font-OpenSans relative ">
                   MLloOps™ is a single, integrated platform designed for all
                   stakeholders in AI projects, from data scientists and
                   engineers to business leaders and domain experts. It
@@ -779,12 +779,12 @@ const MLloOpsContent = () => {
                   flow from unstructured data to actionable insights.
                 </p>
                 
-                <div className="flex flex-col sm:flex-row gap-6 mt-8 relative z-10">
+                <div className="flex flex-col sm:flex-row gap-6 mt-8 relative ">
                   <Link to="/Contact"
                     className="group relative inline-flex justify-center items-center px-8 py-4 rounded-2xl bg-gradient-to-r from-Primary to-green-600 text-white font-semibold overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-Primary/25"
                   >
                     <span className="absolute inset-0 bg-gradient-to-r from-green-600 to-Primary opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-                    <span className="relative z-10 flex items-center gap-3">
+                    <span className="relative  flex items-center gap-3">
                       Request for a Demo
                       <motion.div
                         animate={{ x: [0, 5, 0] }}
@@ -802,7 +802,7 @@ const MLloOpsContent = () => {
                     className="group inline-flex justify-center items-center px-8 py-4 rounded-2xl border-2 border-Primary text-Primary font-semibold hover:bg-Primary hover:text-white transition-all duration-300 relative overflow-hidden"
                   >
                     <span className="absolute inset-0 bg-Primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-                    <span className="relative z-10 flex items-center gap-3">
+                    <span className="relative flex items-center gap-3">
                       Get Started with MLloOps™
                       <motion.div
                         animate={{ rotate: [0, 180, 360] }}
@@ -832,7 +832,7 @@ const MLloOpsContent = () => {
           <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-green-100/30 rounded-full blur-3xl"></div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative ">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -901,13 +901,13 @@ const MLloOpsContent = () => {
               >
                 <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-30 transition-opacity duration-500`}></div>
                 
-                <div className="relative z-10 mb-6">
+                <div className="relative  mb-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-Primary/20 to-green-100 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     {feature.icon}
                   </div>
                 </div>
                 
-                <div className="relative z-10">
+                <div className="relative ">
                   <h3 className="text-xl font-bold text-gray-800 mb-4 group-hover:text-Primary transition-colors duration-300">
                     {feature.title}
                   </h3>
@@ -924,7 +924,7 @@ const MLloOpsContent = () => {
       </motion.section>
 
       {/* Workflow Timeline Section */}
-   // Interactive demo showcase
+
 <motion.section className="py-20 bg-gradient-to-r from-Primary/5 to-green-50/50 relative">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <motion.h2 className="text-4xl font-bold text-center text-gray-800 mb-16">
@@ -1129,7 +1129,7 @@ const MLloOpsContent = () => {
 
         <motion.div
           variants={cardVariants}
-          className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10"
+          className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative "
         >
           <div className="bg-white/70 backdrop-blur-xl rounded-3xl p-12 shadow-2xl border border-white/30">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
